@@ -104,7 +104,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'cbRE++8JGG+qv2YhnXda/m4HQhnQbPTTPrdJgLzT+pA='),
+    'key' => env('APP_KEY', 'UOSSDB_APP_KEY'),
 
     'cipher' => 'AES-256-CBC',
 
