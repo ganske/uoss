@@ -1,1 +1,1 @@
-# uossdb
+# Unofficial Squaresoft MUD Database
