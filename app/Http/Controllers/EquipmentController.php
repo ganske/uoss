@@ -21,6 +21,7 @@ class EquipmentController extends Controller
 
     public function filter(Request $filters) {
         $query = Equipment::where('name', 'like', '%'.$filters->n.'%')->get();
+        dd($query);
 
         return view('equipment.index', compact('query'));
 
