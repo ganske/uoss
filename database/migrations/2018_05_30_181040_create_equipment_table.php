@@ -16,6 +16,12 @@ class CreateEquipmentTable extends Migration
         Schema::create('equipment', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->integer('lv');
+            $table->integer('str');
+            $table->integer('agi');
+            $table->integer('vit');
+            $table->integer('wil');
+            $table->integer('wis');
             $table->timestamps();
         });
     }

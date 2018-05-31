@@ -6,6 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarMain">
         <!-- navigation -->
       <ul class="navbar-nav">
+          <li><a href="/equipment">Equipment</a></li>
       </ul>
     </div>
 </nav>

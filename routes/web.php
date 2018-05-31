@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/equipment', 'EquipmentController@index');
+Route::post('/equipment', 'EquipmentController@filter');

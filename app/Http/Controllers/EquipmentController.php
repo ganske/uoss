@@ -14,7 +14,16 @@ class EquipmentController extends Controller
      */
     public function index()
     {
-        //
+        $query = Equipment::all();
+
+        return view('equipment.index', compact('query'));
+    }
+
+    public function filter(Request $filters) {
+        $query = Equipment::where('name', 'like', '%'.$filters->n.'%')->get();
+
+        return view('equipment.index', compact('query'));
+
     }
 
     /**
